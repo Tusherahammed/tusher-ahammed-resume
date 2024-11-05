@@ -116,7 +116,7 @@ span{
 }
 .contract-info.education h4{
     color: black;
-    font-weight: 100;
+    font-weight: 400;
     font-size: .8em;
     
 }
@@ -171,7 +171,7 @@ p{
 }
 .skills .box h4 {
     text-transform: uppercase;
-    color: #848c99;
+    color: blue;
     font-weight: 500;
 }
 .skills .box .percent {
@@ -185,7 +185,7 @@ p{
     top: 0;
     left: 0;
     height: 100%;
-    background: #03a9f4;
+    background: blue;
 }
 .about{
     margin-bottom: 50px;
