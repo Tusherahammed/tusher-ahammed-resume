@@ -22,7 +22,7 @@ body{
     min-height: 100vh;
 }
 span{
-    color: rgb(180, 108, 12);
+    color: rgb(228, 132, 6);
 }
 .container{
     position: relative;
@@ -37,7 +37,8 @@ span{
 }
 .container .left-side{
     position: relative;
-    background: #003147;
+    background: white;
+    color: black;
     padding: 40px;
 }
 .profile-text{
@@ -64,7 +65,7 @@ span{
     object-fit: cover;
 }
 .profile-text h2 {
-    color:#fff;
+    color: #02151e;
     font-size: 1.5em;
     margin-top: 20px;
     text-align: center;
@@ -74,14 +75,14 @@ span{
 .profile-text h2 span{
     font-size: .8em;
     font-weight: 300;
-    color: antiquewhite;
+    color: rgb(28, 9, 106);
 
 }
 .contract-info{
     padding: 40px;
 }
 .title{
-    color: #fff;
+    color: black;
     text-decoration:none ;
     text-transform: uppercase;
     font-weight: 600;
@@ -99,22 +100,22 @@ span{
      display: inline-block;
      width: 30px;
      font-size: 14px;
-     color: antiquewhite;
+     color: black;
 }
 .contract-info ul li span {
-    color: #fff;
+    color: black;
     font-weight: 300;
     font-size: 12px;
     text-align: center;
 }
 .contract-info.education h5{
-    color:antiquewhite;
+    color:blue;
     font-weight: 500;
     margin-bottom: 10px;
 
 }
 .contract-info.education h4{
-    color: #fff;
+    color: black;
     font-weight: 100;
     font-size: .8em;
     
@@ -212,7 +213,16 @@ p{
     .container{
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
+        background-color: #fff;
 
+    }
+    .container .left-side{
+        background-color: #fff;
+        color: #02151e;
+    }
+    #different-mobile{
+        background-color: #fff;
+        color: #02151e;
     }
     .interest ul{
         grid-template-columns: repeat(2,1fr);
@@ -220,7 +230,13 @@ p{
 }
 @media (max-width :600px) {
     body{
-        font-size: 20px;
+        font-size: 15px;
+        background-color: white;
+        color: #02151e;
+    }
+    .left-side{
+        background-color: white;
+        color: #02151e;
     }
     .about .box{
         flex-direction: column;
