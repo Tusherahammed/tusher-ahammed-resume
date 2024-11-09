@@ -21,9 +21,6 @@ body{
     align-items: center;
     min-height: 100vh;
 }
-span{
-    color: rgb(228, 132, 6);
-}
 .container{
     position: relative;
     width: 100%;
@@ -37,8 +34,7 @@ span{
 }
 .container .left-side{
     position: relative;
-    background: white;
-    color: black;
+    background: #003147;
     padding: 40px;
 }
 .profile-text{
@@ -65,7 +61,7 @@ span{
     object-fit: cover;
 }
 .profile-text h2 {
-    color: #02151e;
+    color:#fff;
     font-size: 1.5em;
     margin-top: 20px;
     text-align: center;
@@ -75,14 +71,14 @@ span{
 .profile-text h2 span{
     font-size: .8em;
     font-weight: 300;
-    color: rgb(28, 9, 106);
+    color: antiquewhite;
 
 }
 .contract-info{
     padding: 40px;
 }
 .title{
-    color: black;
+    color: #fff;
     text-decoration:none ;
     text-transform: uppercase;
     font-weight: 600;
@@ -100,23 +96,23 @@ span{
      display: inline-block;
      width: 30px;
      font-size: 14px;
-     color: black;
+     color: antiquewhite;
 }
 .contract-info ul li span {
-    color: black;
+    color: #fff;
     font-weight: 300;
     font-size: 12px;
     text-align: center;
 }
 .contract-info.education h5{
-    color:blue;
+    color:antiquewhite;
     font-weight: 500;
     margin-bottom: 10px;
 
 }
 .contract-info.education h4{
-    color: black;
-    font-weight: 400;
+    color: #fff;
+    font-weight: 100;
     font-size: .8em;
     
 }
@@ -171,7 +167,7 @@ p{
 }
 .skills .box h4 {
     text-transform: uppercase;
-    color: blue;
+    color: #848c99;
     font-weight: 500;
 }
 .skills .box .percent {
@@ -185,16 +181,13 @@ p{
     top: 0;
     left: 0;
     height: 100%;
-    background: blue;
+    background: #03a9f4;
 }
 .about{
     margin-bottom: 50px;
 }
-.about .interest {
-    margin-top: 30px;
-}
 .interest ul{
-       margin-top: 30px;
+    
        display: grid;
        grid-template-columns:repeat(4,1fr);
 }
@@ -213,16 +206,7 @@ p{
     .container{
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
-        background-color: #fff;
 
-    }
-    .container .left-side{
-        background-color: #fff;
-        color: #02151e;
-    }
-    #different-mobile{
-        background-color: #fff;
-        color: #02151e;
     }
     .interest ul{
         grid-template-columns: repeat(2,1fr);
@@ -230,13 +214,7 @@ p{
 }
 @media (max-width :600px) {
     body{
-        font-size: 15px;
-        background-color: white;
-        color: #02151e;
-    }
-    .left-side{
-        background-color: white;
-        color: #02151e;
+        font-size: 20px;
     }
     .about .box{
         flex-direction: column;
