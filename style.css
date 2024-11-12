@@ -183,6 +183,9 @@ p{
     height: 100%;
     background: #03a9f4;
 }
+.differnt-color{
+    color: blue;
+}
 .about{
     margin-bottom: 50px;
 }
