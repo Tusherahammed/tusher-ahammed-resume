@@ -159,6 +159,17 @@ p{
     text-align: justify;
     margin-bottom: 30px;
 }
+.Personal-details{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+.Personal-details h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
 .skills .box {
     position: relative;
     width: 100%;
@@ -206,6 +217,10 @@ p{
 .interest ul li .fa-solid{
     color: #03a9f4;
     padding-right: 10px;
+}
+/* footer style */
+footer p{
+      color: #03a9f4;
 }
 /* media-mobile */
 @media (max-width :1000px) {
